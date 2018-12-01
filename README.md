@@ -20,8 +20,13 @@ Here are some things that the program does not need to do:
     Two solutions are provided, one is for assignment. It is defined as a class method, which takes in an array
     of rolling result, and calculates out the total score.
 
-    The second solution not part of assignment, but rather a development for fun. It mimics a real bowling game,
+    The second solution is not part of assignment, but rather a development for fun. It mimics a real bowling game,
     so it allows rolling the ball one by one and displays a score board for the known scores after a roll.
+
+    The two solution uses different approaches for figuring out total scores. The first one is simple because
+    it can use future data. The second one is more challenging because it has more states to deal with as ball
+    rolls. I tried to make the second solution a little simpler by introducing scheduled events so that the
+    algorithm is closer to human experience thus easier to understand.
 
 ### Solution for assignment
 ```Java
@@ -146,7 +151,7 @@ Here are some things that the program does not need to do:
 Assume java is available in searching path
 * Run the demo by issuing this command
     * java -cp ./build/libs/TenpinBowling-1.0-SNAPSHOT.jar BowlingGame
-    <p>
+<p>
     First demo, the assignment:
     For this sequence of rolls:{9, 1, 0, 10, 10, 10, 6, 2, 7, 3, 8, 2, 10, 9, 0, 10, 10, 8}
     Total Score is:176
@@ -226,4 +231,4 @@ Assume java is available in searching path
     Scored so far:176
     Scored Board:[10, 20, 26, 18, 8, 18, 20, 19, 9, 28]
 
-    </p>
+</p>
