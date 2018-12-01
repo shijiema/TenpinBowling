@@ -17,13 +17,14 @@ Here are some things that the program does not need to do:
 ## The Solution
     Solutions are provided in a Java class called BowlingGame.
 
-    Two solutions are provided, one is for assignment. It is defined as a class method, which takes in an array of rolling result, and calculates out the total score.
+    Two solutions are provided, one is for assignment. It is defined as a class method, which takes in an array
+    of rolling result, and calculates out the total score.
 
-    The second solution not part of assignment, but rather a development for fun. It mimics a real bowling game, so it
-    allows rolling the ball one by one and displays a score board for the known scores after a roll.
+    The second solution not part of assignment, but rather a development for fun. It mimics a real bowling game,
+    so it allows rolling the ball one by one and displays a score board for the known scores after a roll.
 
 ###Solution for assignment
-    ```Java
+```Java
     public static int getTotalScore(int[] rollings) {
             if (rollings == null || rollings.length == 0) return 0;
             int frame = 1, totalScore = 0;
@@ -57,7 +58,7 @@ Here are some things that the program does not need to do:
             }
             return totalScore;
         }
-    ```
+```
 ### Solution for fun: realtime play and score update
 ```Java
     public void roll(int pins) {
@@ -144,7 +145,7 @@ Here are some things that the program does not need to do:
 ## See a demo
 Assume java is available in searching path
 * Run the demo by issuing this command
-    *java -cp ./build/libs/TenpinBowling-1.0-SNAPSHOT.jar BowlingGame
+    * java -cp ./build/libs/TenpinBowling-1.0-SNAPSHOT.jar BowlingGame
     <p>
     First demo, the assignment:
     For this sequence of rolls:{9, 1, 0, 10, 10, 10, 6, 2, 7, 3, 8, 2, 10, 9, 0, 10, 10, 8}
