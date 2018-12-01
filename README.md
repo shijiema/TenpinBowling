@@ -153,9 +153,9 @@ Assume java is available in searching path
     * java -cp ./build/libs/TenpinBowling-1.0-SNAPSHOT.jar BowlingGame
     * below is the output
 
-> First demo, the assignment:
-> For this sequence of rolls: {9, 1, 0, 10, 10, 10, 6, 2, 7, 3, 8, 2, 10, 9, 0, 10, 10, 8}
-> Total Score is:176
+    First demo, the assignment:
+    For this sequence of rolls: {9, 1, 0, 10, 10, 10, 6, 2, 7, 3, 8, 2, 10, 9, 0, 10, 10, 8}
+    Total Score is:176
 
     Second demo, the fun part:
     Now let's play a game and update the score board.
