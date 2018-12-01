@@ -216,9 +216,9 @@ public class BowlingGame {
         System.out.println("Now let's play a game and update the score board.");
         System.out.println(getTotalScore(rolls));
         for (int i : rolls) {
-            System.out.println("Roll a ball, scored "+i);
+            System.out.println("Roll a ball, scored "+i+".");
             game.roll(i);
-            System.out.println("Scored so far:"+game.getScore());
+            System.out.println("Total Scored so far:"+game.getScore());
             System.out.println("Scored Board:"+Arrays.stream(game.getFrameScores()).boxed().collect(Collectors.toList()));
             System.out.println();
         }

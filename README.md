@@ -23,7 +23,7 @@ Here are some things that the program does not need to do:
     The second solution not part of assignment, but rather a development for fun. It mimics a real bowling game,
     so it allows rolling the ball one by one and displays a score board for the known scores after a roll.
 
-###Solution for assignment
+### Solution for assignment
 ```Java
     public static int getTotalScore(int[] rollings) {
             if (rollings == null || rollings.length == 0) return 0;
