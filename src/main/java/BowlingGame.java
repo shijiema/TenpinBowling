@@ -78,6 +78,12 @@ public class BowlingGame {
      */
     public void roll(int pins) {
         if (isGameOver) {
+            System.out.println("Game is over. No more rolling.");
+            return;
+        }
+        if(pins<0||pins>TOTAL_PINS ||
+                (rollingInFrame==Rolling.SECOND &&rollings.size()>0&&pins+rollings.get(rollings.size()-1)>TOTAL_PINS)){
+            System.out.println("Invalid pin number.");
             return;
         }
         //record score in each rolling
@@ -204,7 +210,7 @@ public class BowlingGame {
         return totalScore;
     }
 
-    public static void main(String[] args) {
+    private static void demo(){
         BowlingGame game = new BowlingGame();
         //Purely calculation
         int[] rolls = new int[]{9, 1, 0, 10, 10, 10, 6, 2, 7, 3, 8, 2, 10, 9, 0, 10, 10, 8};
@@ -220,6 +226,42 @@ public class BowlingGame {
             System.out.println("Total Scored so far:"+game.getScore());
             System.out.println("Scored Board:"+Arrays.stream(game.getFrameScores()).boxed().collect(Collectors.toList()));
             System.out.println();
+        }
+    }
+    private static void interactivePlay(){
+        BowlingGame game = new BowlingGame();
+        boolean quit = false;
+        Scanner input = new Scanner(System.in);
+        int score=0;
+        while(!quit){
+            System.out.println("Enter score or q to quit and r to reset:");
+            String[] elements = input.nextLine().split(" ");
+            for(String e:elements) {
+                if(e.equals("q")){
+                    System.out.println("Thanks for play. Bye");
+                    System.exit(0);
+                }else if(e.equals("r")){
+                    game.resetGame();
+                    System.out.println("Game is reset. Let's restart.");
+                    continue;
+                }
+
+                try{
+                    score = Integer.valueOf(e);
+                }catch(Exception ex){
+                    continue;
+                }
+                game.roll(score);
+                System.out.println("Total Scored so far:"+game.getScore());
+                System.out.println("Scored Board:"+Arrays.stream(game.getFrameScores()).boxed().collect(Collectors.toList()));
+            }
+        }
+    }
+    public static void main(String[] args) {
+        if(args==null||args.length==0){
+            demo();
+        }else if(args.length==1 && "-i".equals(args[0])){
+            interactivePlay();
         }
     }
 }

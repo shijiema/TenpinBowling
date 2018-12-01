@@ -232,3 +232,9 @@ Assume java is available in searching path
     Scored so far:176
     Scored Board:[10, 20, 26, 18, 8, 18, 20, 19, 9, 28]
 ```
+
+## Play a game
+Give it a try by execute it with -i paramter.
+```
+    java -cp ./build/libs/TenpinBowling-1.0-SNAPSHOT.jar BowlingGame -i
+```
