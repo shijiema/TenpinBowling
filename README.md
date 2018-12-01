@@ -1,6 +1,10 @@
 # TenpinBowling
 Ten-pin Bowling take home test from Boeing
 
+## Assignment
+    Create a program, which, given a valid sequence of rolls for one line of American Ten-Pin Bowling, produces the total score for the game.
+    The following video is a good overview if you are not familiar with American Ten-Pin Bowling: https://www.youtube.com/watch?v=E2d8PizMe-8.
+
 ## American Ten-Pin Bowling Scoring Rules
 * The game consists of 10 frames.
 * In each frame the player has two opportunities to knock down 10 pins. The score for the frame is the total number of pins knocked down,plus bonuses for strikes and spares.
@@ -64,6 +68,7 @@ Here are some things that the program does not need to do:
             return totalScore;
         }
 ```
+
 ### Solution for fun: realtime play and score update
 ```Java
     public void roll(int pins) {
