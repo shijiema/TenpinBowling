@@ -151,6 +151,7 @@ Here are some things that the program does not need to do:
 Assume java is available in searching path
 * Run the demo by issuing this command
     * java -cp ./build/libs/TenpinBowling-1.0-SNAPSHOT.jar BowlingGame
+    * below is the output
 
 > First demo, the assignment:
 > For this sequence of rolls: {9, 1, 0, 10, 10, 10, 6, 2, 7, 3, 8, 2, 10, 9, 0, 10, 10, 8}
