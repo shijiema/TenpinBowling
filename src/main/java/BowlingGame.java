@@ -209,7 +209,7 @@ public class BowlingGame {
         //Purely calculation
         int[] rolls = new int[]{9, 1, 0, 10, 10, 10, 6, 2, 7, 3, 8, 2, 10, 9, 0, 10, 10, 8};
         System.out.println("First demo, the assignment:");
-        System.out.println("For this sequence of rolls:{9, 1, 0, 10, 10, 10, 6, 2, 7, 3, 8, 2, 10, 9, 0, 10, 10, 8}");
+        System.out.println("For this sequence of rolls:"+Arrays.stream(rolls).boxed().collect(Collectors.toList()));
         System.out.println("Total Score is:"+getTotalScore(rolls));
         //live play
         System.out.println("\nSecond demo, the fun part:");
