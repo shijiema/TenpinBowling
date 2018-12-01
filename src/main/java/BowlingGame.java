@@ -214,7 +214,6 @@ public class BowlingGame {
         //live play
         System.out.println("\nSecond demo, the fun part:");
         System.out.println("Now let's play a game and update the score board.");
-        System.out.println(getTotalScore(rolls));
         for (int i : rolls) {
             System.out.println("Roll a ball, scored "+i+".");
             game.roll(i);
