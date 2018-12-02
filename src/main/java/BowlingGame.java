@@ -224,7 +224,7 @@ public class BowlingGame {
             System.out.println("Roll a ball, scored "+i+".");
             game.roll(i);
             System.out.println("Total Scored so far:"+game.getScore());
-            System.out.println("Scored Board:"+Arrays.stream(game.getFrameScores()).boxed().collect(Collectors.toList()));
+            System.out.println("Score Board:"+Arrays.stream(game.getFrameScores()).boxed().collect(Collectors.toList()));
             System.out.println();
         }
     }

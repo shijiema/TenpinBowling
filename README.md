@@ -167,78 +167,78 @@ Assume java is available in searching path
 
     Roll a ball, scored 9
     Scored so far:9
-    Scored Board:[9, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    Score Board:[9, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
     Roll a ball, scored 1
     Scored so far:10
-    Scored Board:[10, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    Score Board:[10, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
     Roll a ball, scored 0
     Scored so far:10
-    Scored Board:[10, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    Score Board:[10, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
     Roll a ball, scored 10
     Scored so far:20
-    Scored Board:[10, 10, 0, 0, 0, 0, 0, 0, 0, 0]
+    Score Board:[10, 10, 0, 0, 0, 0, 0, 0, 0, 0]
 
     Roll a ball, scored 10
     Scored so far:40
-    Scored Board:[10, 20, 10, 0, 0, 0, 0, 0, 0, 0]
+    Score Board:[10, 20, 10, 0, 0, 0, 0, 0, 0, 0]
 
     Roll a ball, scored 10
     Scored so far:50
-    Scored Board:[10, 20, 10, 10, 0, 0, 0, 0, 0, 0]
+    Score Board:[10, 20, 10, 10, 0, 0, 0, 0, 0, 0]
 
     Roll a ball, scored 6
     Scored so far:72
-    Scored Board:[10, 20, 26, 10, 6, 0, 0, 0, 0, 0]
+    Score Board:[10, 20, 26, 10, 6, 0, 0, 0, 0, 0]
 
     Roll a ball, scored 2
     Scored so far:82
-    Scored Board:[10, 20, 26, 18, 8, 0, 0, 0, 0, 0]
+    Score Board:[10, 20, 26, 18, 8, 0, 0, 0, 0, 0]
 
     Roll a ball, scored 7
     Scored so far:89
-    Scored Board:[10, 20, 26, 18, 8, 7, 0, 0, 0, 0]
+    Score Board:[10, 20, 26, 18, 8, 7, 0, 0, 0, 0]
 
     Roll a ball, scored 3
     Scored so far:92
-    Scored Board:[10, 20, 26, 18, 8, 10, 0, 0, 0, 0]
+    Score Board:[10, 20, 26, 18, 8, 10, 0, 0, 0, 0]
 
     Roll a ball, scored 8
     Scored so far:108
-    Scored Board:[10, 20, 26, 18, 8, 18, 8, 0, 0, 0]
+    Score Board:[10, 20, 26, 18, 8, 18, 8, 0, 0, 0]
 
     Roll a ball, scored 2
     Scored so far:110
-    Scored Board:[10, 20, 26, 18, 8, 18, 10, 0, 0, 0]
+    Score Board:[10, 20, 26, 18, 8, 18, 10, 0, 0, 0]
 
     Roll a ball, scored 10
     Scored so far:130
-    Scored Board:[10, 20, 26, 18, 8, 18, 20, 10, 0, 0]
+    Score Board:[10, 20, 26, 18, 8, 18, 20, 10, 0, 0]
 
     Roll a ball, scored 9
     Scored so far:139
-    Scored Board:[10, 20, 26, 18, 8, 18, 20, 10, 9, 0]
+    Score Board:[10, 20, 26, 18, 8, 18, 20, 10, 9, 0]
 
     Roll a ball, scored 0
     Scored so far:148
-    Scored Board:[10, 20, 26, 18, 8, 18, 20, 19, 9, 0]
+    Score Board:[10, 20, 26, 18, 8, 18, 20, 19, 9, 0]
 
     Roll a ball, scored 10
     Scored so far:158
-    Scored Board:[10, 20, 26, 18, 8, 18, 20, 19, 9, 10]
+    Score Board:[10, 20, 26, 18, 8, 18, 20, 19, 9, 10]
 
     Roll a ball, scored 10
     Scored so far:158
-    Scored Board:[10, 20, 26, 18, 8, 18, 20, 19, 9, 10]
+    Score Board:[10, 20, 26, 18, 8, 18, 20, 19, 9, 10]
 
     Roll a ball, scored 8
     Scored so far:176
-    Scored Board:[10, 20, 26, 18, 8, 18, 20, 19, 9, 28]
+    Score Board:[10, 20, 26, 18, 8, 18, 20, 19, 9, 28]
 ```
 
-## Play a game
+## Hidden gem, Play a game
 Give it a try by execute it with -i paramter.
 ```
     java -cp ./build/libs/TenpinBowling-1.0-SNAPSHOT.jar BowlingGame -i
