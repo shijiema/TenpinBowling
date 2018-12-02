@@ -40,7 +40,7 @@ Here are some things that the program does not need to do:
             boolean firstRoll = true;
             //last frame is for a perfect game, it only collects points, no more scores to collect after that
             for (int i = 0; i < rollings.length && frame <= TOTAL_FRAMES - 1; i++) {
-                //strick
+                //strike
                 if (firstRoll && rollings[i] == TOTAL_PINS) {
     //                if (i + 1 >= rollings.length || i + 2 >= rollings.length) {
     //                    throw new RuntimeException("Invalid Data");
