@@ -13,6 +13,18 @@ public class BowlingGameTest {
         game = new BowlingGame();
     }
     @Test
+    public void playWorstGame() {
+        int rolls[] = new int[]{0,0,0,0,0,0,0,0,0,0};
+        int expectedScore = 0;
+        assertEquals(BowlingGame.getTotalScore(rolls),expectedScore);
+    }
+    @Test
+    public void playPerfectGame() {
+        int rolls[] = new int[]{10,10,10,10,10,10,10,10,10,10,10,10};
+        int expectedScore = 300;
+        assertEquals(BowlingGame.getTotalScore(rolls),expectedScore);
+    }
+    @Test
     public void getTotalScore() {
         int rolls[] = new int[]{8,2,0,10,10,10,6,2,7,3,8,2,10,9,0,10,10,5};
         int expectedScore = 173;
