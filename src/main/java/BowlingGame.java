@@ -238,6 +238,7 @@ public class BowlingGame {
             String[] elements = input.nextLine().split(" ");
             for(String e:elements) {
                 if(e.equals("q")){
+                    input.close();
                     System.out.println("Thanks for play. Bye");
                     System.exit(0);
                 }else if(e.equals("r")){
