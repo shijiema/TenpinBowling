@@ -239,7 +239,7 @@ Assume java is available in searching path
 ```
 
 ## Hidden gem, Play a game
-Give it a try by execute it with -i as parameter. You can enter one or more scores separated by space at same time.
+Give it a try by running it with -i as parameter. You can enter one or more scores separated by space at same time.
 ```
     java -cp ./build/libs/TenpinBowling-1.0-SNAPSHOT.jar BowlingGame -i
 ```
