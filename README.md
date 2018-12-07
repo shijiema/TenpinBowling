@@ -19,7 +19,7 @@ Here are some things that the program does not need to do:
 * We will not provide scores for intermediate frames
 
 ## The Solution
-    Solutions are provided in a Java class called BowlingGame.
+    Solutions are provided in a Java class called learning.services.BowlingGame.
 
     Two solutions are provided, one is for assignment. It is defined as a class method, which takes in an array
     of rolling result, and calculates out the total score.
@@ -155,7 +155,7 @@ Here are some things that the program does not need to do:
 ## See a demo
 Assume java is available in searching path
 * Run the demo by issuing this command
-    * java -cp ./build/libs/TenpinBowling-1.0-SNAPSHOT.jar BowlingGame
+    * java -cp ./build/libs/TenpinBowling-1.0-SNAPSHOT.jar learning.services.BowlingGame
     * below is the output
 ```
     First demo, the assignment:
@@ -241,5 +241,5 @@ Assume java is available in searching path
 ## Hidden gem, Play a game
 Give it a try by running it with -i as parameter. You can enter one or more scores separated by space at same time.
 ```
-    java -cp ./build/libs/TenpinBowling-1.0-SNAPSHOT.jar BowlingGame -i
+    java -cp ./build/libs/TenpinBowling-1.0-SNAPSHOT.jar learning.services.BowlingGame -i
 ```

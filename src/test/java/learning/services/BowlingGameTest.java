@@ -1,8 +1,8 @@
+package learning.services;
+
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.Arrays;
-import java.util.stream.Collectors;
+import learning.services.BowlingGame;
 
 import static org.junit.Assert.*;
 
