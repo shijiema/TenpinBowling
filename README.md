@@ -156,6 +156,7 @@ Here are some things that the program does not need to do:
 Assume java is available in searching path
 * Run as RESTful web service
 The application has been made as web service with URL http://localhost:8080/calculateTotalScore
+    * java -jar ./build/libs/bowling-service-0.1.0.jar
     * example call from curl
         * curl http://localhost:8080/calculateTotalScore?rollings=10,10,10,10,10,10,10,10,10,10,10,10
 * Run the demo as standalone Java application
