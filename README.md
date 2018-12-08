@@ -156,11 +156,12 @@ Here are some things that the program does not need to do:
 Assume java is available in searching path
 * Run as RESTful web service
 The application has been made as web service with URL http://localhost:8080/calculateTotalScore
-    * java -jar ./build/libs/bowling-service-0.1.0.jar
+    * java -jar ./build/libs/bowling-service-0.1.0-boot.jar
     * example call from curl
         * curl http://localhost:8080/calculateTotalScore?rollings=10,10,10,10,10,10,10,10,10,10,10,10
 * Run the demo as standalone Java application
-    * java -cp ./build/libs/bowling-service-0.1.0.jar learning.services.BowlingGame
+    * java -cp ./build/libs/TenpinBowling-0.1.0.jar learning.services.BowlingGame
+        * or java -jar ./build/libs/TenpinBowling-0.1.0.jar
     * below is the output
 ```
     First demo, the assignment:
@@ -246,5 +247,5 @@ The application has been made as web service with URL http://localhost:8080/calc
 ## Hidden gem, Play a game
 Give it a try by running it with -i as parameter. You can enter one or more scores separated by space at same time.
 ```
-    java -cp ./build/libs/bowling-service-0.1.0.jar.jar learning.services.BowlingGame -i
+    java -jar ./build/libs/TenpinBowling-0.1.0.jar -i
 ```
